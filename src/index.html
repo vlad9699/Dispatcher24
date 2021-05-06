@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Головна</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body class="bg-body">
+
+    <header class="bg">
+        <div class="container max-w-7xl mx-auto px-5 flex justify-between items-center h-20 ">
+            <div class="flex items-center z-10">
+                <div class="w-8 h-3.5 relative lg:hidden cursor-pointer">
+                    <span class="h-0.5 bg-white w-full absolute top-0"></span>
+                    <span class="h-0.5 bg-white w-full absolute top-1.5"></span>
+                    <span class="h-0.5 bg-white w-full absolute bottom-0"></span>
+                </div>
+                <a class="hidden lg:block" href="#"><img src="img/logo.png" alt="Dispatcher24"></a>
+                <nav class="hidden lg:block">
+                    <ul class="flex text-white">
+                        <li class="ml-20"><a href="#">Як це працює</a></li>
+                        <li class="ml-12"><a href="#">Відгуки</a></li>
+                        <li class="ml-12"><a href="#">Контакти</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="z-10 flex">
+                <select class="bg-transparent text-main outline-none appearance-none bg-arr bg-right bg-no-repeat w-8 hidden lg:block" name="" id="">
+                    <option value="EN">EN</option>
+                    <option value="UA">UA</option>
+                </select>
+                <button class="lg:ml-28 h-7 lg:h-10 lg:w-28 text-white lg:text-main lg:border-2 lg:rounded-md lg:border-main font-semibold text-lg outline-none">Увійти</button>
+            </div>
+        </div>
+    </header>
+    <main>
+    <section class="bg mb-14 lg:mb-24">
+        <div class="container max-w-7xl mx-auto px-5 flex flex-col md:items-center md:flex-row lg:pb-28 pb-12">
+            <div class="z-10 ">
+                <h1 class="font-bold text-3xl lg:text-5xl text-white mb-3 lg:mb-7">TMS нового покоління</h1>
+                <p class="font-medium text-lg text-white mb-3 lg:mb-7">Сучасне рішення для автоматизації <br>вантажних перевезень</p>
+                <a class=" hidden mob:flex bg-white text-main rounded-md h-14 items-center justify-center font-bold text-center text-base lg:text-lg max-w-btn" href="#">Познайомитись з функціоналом</a>
+            </div>
+            <div class="z-10 ">
+                <div class="mb-8 mob:m-0"><img src="img/main.png" alt="Dispatcher24"></div>
+                <a class=" flex mob:hidden bg-white text-main rounded-md h-14 items-center justify-center font-bold text-center text-base lg:text-lg max-w-btn" href="#">Познайомитись з функціоналом</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container max-w-7xl mx-auto px-5">
+            <h2 class="font-bold text-main text-2xl md:text-4xl md:mb-10 mb-7">Для кого?</h2>
+            <div class="flex justify-between text-center flex-wrap">
+                <div class="bg-white rounded-3xl sm:w-64 sm:h-64 w-36 h-36 flex justify-center items-center mb-10 hover:shadow-2xl cursor-pointer">
+                    <div>
+                        <img class="w-20 sm:w-full" src="img/pic-1.png" alt="">
+                        <p class=" font-normal sm:font-medium text-base sm:text-2xl text-fonts sm:pt-3">Логістичні <br> оператори</p>
+                    </div>          
+                </div>
+                <div class="bg-white rounded-3xl sm:w-64 sm:h-64 w-36 h-36 flex justify-center items-center mb-10 hover:shadow-2xl cursor-pointer">
+                    <div>
+                        <img class="w-20 sm:w-full" src="img/pic-2.png" alt="">
+                        <p class=" font-normal sm:font-medium text-base sm:text-2xl text-fonts sm:pt-3">Транспортні <br> компанії</p>
+                    </div>          
+                </div>
+                <div class="bg-white rounded-3xl sm:w-64 sm:h-64 w-36 h-36 flex justify-center items-center mb-10 hover:shadow-2xl cursor-pointer">
+                    <div>
+                        <img class="w-20 sm:w-full" src="img/pic-3.png" alt="">
+                        <p class=" font-normal sm:font-medium text-base sm:text-2xl text-fonts sm:pt-3">Рітейлери та <br> дистриб’ютори</p>
+                    </div>          
+                </div>
+                <div class="bg-white rounded-3xl sm:w-64 sm:h-64 w-36 h-36 flex justify-center items-center mb-10 hover:shadow-2xl cursor-pointer">
+                    <div>
+                        <img class="w-20 sm:w-full" src="img/pic-4.png" alt="">
+                        <p class=" font-normal sm:font-medium text-base sm:text-2xl text-fonts sm:pt-3">Виробничі <br> компанії</p>
+                    </div>          
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

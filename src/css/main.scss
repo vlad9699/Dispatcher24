@@ -1,0 +1,28 @@
+.bg {
+    position: relative;
+};
+
+.bg::before {
+    content: '';
+    position: absolute;
+    background: #5276AA;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+};
+@media (min-width: 200px) {
+    .bg::before {
+        width: 100%;
+    }
+}
+@media (min-width: 1020px) {
+    .bg::before {
+        width: 55%;
+    }
+}
+@media (min-width: 1120px) {
+    .bg::before {
+        width: 50%;
+    }
+}
